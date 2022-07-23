@@ -1,0 +1,125 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.header
+{
+    height:80px;
+    background-color: black;
+    color:white;
+    font-size:large;
+}
+
+.name
+{
+    height:80px;
+    color:white;
+    position: absolute;
+    margin:15px;
+}
+
+.header ul
+{
+    list-style: none;
+    display:inline-flex;
+}
+
+.header ul li
+{
+    width:100px;
+    margin:25px;
+    padding:5px;
+}
+
+.header ul li a
+{
+    text-decoration: none;
+    color:white;
+}
+
+.sub
+{
+    display: none;
+}
+
+.header ul li:hover .sub
+{
+    display:block;
+    position: absolute;
+    margin-top: 8px;
+    margin-left:-15px;
+    background-color: black;
+}
+
+.header ul li:hover .sub ul
+{
+    display: block;
+    margin:12px;
+}
+
+.sub ul li:hover a
+{
+    color:rgb(38, 177, 177);
+}
+
+.header ul li:hover a
+{
+    color:rgb(38, 177, 177) ;
+}
+
+.header social a{
+    margin:10px;
+}
+
+
+.social
+{
+    height:80px;
+    position: absolute;
+    margin:25px;
+    display: inline-flex;
+}
+
+.social a
+{
+    color:white;
+    margin-left: 25px;
+    font-size: small;   
+}
+
+.social a i:hover 
+{
+    font-size: large;
+    color:rgb(38, 177, 177);
+}
+
+/*main content of home page*/
+
+body 
+{
+    background-image: url('pic1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.b1
+{
+    height:200px;
+    width:300px;
+    background-color: rgb(83, 211, 211);
+    opacity:0.6;
+    margin:250px;
+    position: absolute;
+}
+
+.b1 h1
+{
+    padding:30px;
+}
+
+.b1 h1:hover 
+{
+    color:white;
+    transition: 1s;
+}
